@@ -1,0 +1,78 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "bilinguismo",
+    "title": "1. El bilingüismo",
+    "breadcrumb": ["Inicio","Tema 1"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "bilinguismo",
+        "title": "1.1 Definición y clasificación",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "bilinguismo",
+        "title": "1.2 Conceptos de bilingüismo",
+        "anchor": "12"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "bilinguismo",
+        "title": "1.3 Aprendizaje de una segunda lengua",
+        "anchor": "13"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "bilinguismo",
+        "title": "1.4 Sistemas de comunicación",
+        "anchor": "14"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "neologismos",
+    "title": "2. Los neologismos",
+    "breadcrumb": ["Inicio","tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "neologismos",
+        "title": "2.1 Definición",
+        "anchor": "21"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "neologismos",
+        "title": "2.2 Tipos de neologismos",
+        "anchor": "22"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "neologismos",
+        "title": "2.3 Procedimiento para la creación, recolección, validación y divulgación de neologismos",
+        "anchor": "23"
+      }
+    ]
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
+    "slug": "interpretacion",
+    "title": "3. La interpretación",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html"
+  }
+]
