@@ -36,6 +36,7 @@ html(lang="es")
                             .card-body
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                    +navTemaItem('play', 'Introducción', '#intro')
                                     +navTemaItem('1', 'El bilingüismo', '#tema-1')
                                     +navTemaItem('2', 'Los neologismos', '#tema-2')
                                     +navTemaItem('2', 'La interpretación', '#tema-3')
@@ -45,6 +46,8 @@ html(lang="es")
 
 
         section#mainContent         
+            #intro 
+                include pages/intro.pug
             #tema-1
                 include pages/1-tema.pug
             #tema-2
@@ -67,8 +70,3 @@ html(lang="es")
 
         script(src="assets/js/vendor.js")
         script(src="js/local.js")
-
-
-
-
-

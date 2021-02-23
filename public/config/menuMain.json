@@ -8,6 +8,14 @@
   { 
     "id": 1,
     "icon": "fa fa-play-circle",
+    "slug": "intro",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","intro"],
+    "path": "pages/intro.html" 
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-file-text-o",
     "slug": "bilinguismo",
     "title": "1. El bilingüismo",
     "breadcrumb": ["Inicio","Tema 1"],
